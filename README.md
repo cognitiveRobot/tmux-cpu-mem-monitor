@@ -14,6 +14,9 @@ A simple yet flexible tool designed to display CPU and memory usage in the Tmux 
 
 1. Then trigger the installation with `Prefix + I`.
 
+> [!NOTE]
+> Some people have encountered issues with their python environment during installation. Check out [issue #11](https://github.com/hendrikmi/tmux-cpu-mem-monitor/issues/11) for some debugging tips.
+
 ## Basic Usage
 
 Once installed, the plugin exposes the placeholders `#{cpu}` and `#{mem}`, which can be used in `status-right` and `status-left`. By default, these placeholders display the current CPU and memory usage as a raw percentage.
