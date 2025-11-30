@@ -11,7 +11,7 @@ def get_cpu_temperature() -> str:
         if "Core" in ct.label:
             total_temp += ct[1]
             num_cores += 1
-    temp_avg = total_temp / num_cores
+    temp_avg = round(total_temp / num_cores, 1)
     return f"{temp_avg}"
 
 
